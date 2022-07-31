@@ -1,8 +1,4 @@
-for (var i = 0; i <= 5; i++) {
-  for (var j = 1; j <=i; j++) {
-    console.log("*");
-
-  }
-  console.log('<br>');
-
+function km_to_miles(km){
+    return km * 0.621371 + ' miles'
 }
+km_to_miles(2)
